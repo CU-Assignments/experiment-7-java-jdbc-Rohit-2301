@@ -15,8 +15,8 @@ import java.sql.*;
 public class JDBCExample {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/company"; // Database URL
-        String user = "root"; // Change as per your MySQL user
-        String password = "password"; // Change to your MySQL password
+        String user = "rohit"; // Change as per your MySQL user
+        String password = "Sql@13677"; // Change to your MySQL password
 
         try {
             // Load MySQL JDBC Driver
