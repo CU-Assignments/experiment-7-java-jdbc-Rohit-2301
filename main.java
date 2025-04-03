@@ -29,7 +29,7 @@ public class StudentController {
     private Connection conn;
 
     public StudentController() throws SQLException {
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college", "root", "password");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college", "rohit", "Sql@13677");
     }
 
     public void addStudent(Student student) throws SQLException {
