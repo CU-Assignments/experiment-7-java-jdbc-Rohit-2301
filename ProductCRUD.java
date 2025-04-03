@@ -12,8 +12,8 @@ import java.util.Scanner;
 
 public class ProductCRUD {
     static final String URL = "jdbc:mysql://localhost:3306/store";
-    static final String USER = "root";
-    static final String PASSWORD = "password";
+    static final String USER = "rohit";
+    static final String PASSWORD = "Sql@13677";
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(URL, USER, PASSWORD)) {
